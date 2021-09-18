@@ -1,6 +1,8 @@
 import urllib.request
 import json
 
+# s
+
 
 def hae_postinumerot():
     with urllib.request.urlopen('https://raw.githubusercontent.com/theikkila/postinumerot/master/postcode_map_light.json') as response:
